@@ -7,7 +7,7 @@ Welcome to the Atlas Device SDK Docs  Testing Again!
 ====================================
 
 .. meta:: 
-   :description: Atlas Device SDK is an offline-first, cloud-syncable database for mobile, web, desktop, and IoT apps.
+   :description: Atlas TESTING Device SDK is an offline-first, cloud-syncable database for mobile, web, desktop, and IoT apps.
 
 .. toctree::
    :titlesonly:
