@@ -8,6 +8,7 @@ name = "snooty-cache-plugin"
 publish = "snooty/public"
 command = ". ./build.sh"
 
+
 [context.deploy-preview]
 publish = "snooty/public"
 command = ". ./build.sh"
@@ -19,3 +20,16 @@ command = ". ./build.sh"
 [context.dev]
 publish = "snooty/public"
 command = ". ./build.sh"
+
+[[redirects]]
+  from = "/tutorials"
+  to = "/tutorial/"
+  status = 302
+  force = true
+
+
+[[redirects]]
+  from = "/sdk/flutter/*"
+  to = "/sdk/cpp/:splat"
+  status = 302
+  force = true
