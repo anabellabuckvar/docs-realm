@@ -9,5 +9,5 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 [[redirects]]
-  from = "https://master--fork2-docs-realm.netlify.app/"
+  from = "/*"
   to = "https://mongodb.com/docs"
