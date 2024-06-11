@@ -22,4 +22,3 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 
-[[redirects]]
