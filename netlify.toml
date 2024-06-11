@@ -22,14 +22,7 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 [[redirects]]
-  from = "/tutorials"
-  to = "/tutorial/"
-  status = 302
-  force = true
-
-
-[[redirects]]
-  from = "/flutter/*"
-  to = "/cpp/:splat"
+  from = "sdk/flutter/*"
+  to = "sdk/cpp/:splat"
   status = 302
   force = true
