@@ -7,3 +7,7 @@ name = "snooty-cache-plugin"
 [context.production]
 publish = "snooty/public"
 command = ". ./build.sh"
+
+[[redirects]]
+  from = "https://master--fork2-docs-realm.netlify.app/"
+  to = "https://mongodb.com/docs"
