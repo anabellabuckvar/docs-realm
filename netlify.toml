@@ -9,5 +9,5 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 [[redirects]]
-  from = "/*"
-  to = "https://mongodb.com/docs"
+  from = "/tutorials"
+  to = "/tutorial/"
