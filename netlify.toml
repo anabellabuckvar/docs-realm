@@ -29,7 +29,7 @@ command = ". ./build.sh"
 
 
 [[redirects]]
-  from = "https://master--fork2-docs-realm.netlify.app/sdk/flutter/sdk/flutter/*"
-  to = "https://master--fork2-docs-realm.netlify.app/sdk/flutter/sdk/cpp/:splat"
+  from = "/flutter/*"
+  to = "/cpp/:splat"
   status = 302
   force = true
