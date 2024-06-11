@@ -21,4 +21,7 @@ command = ". ./build.sh"
 publish = "snooty/public"
 command = ". ./build.sh"
 
+[[redirects]]
+  from = "/news"
+  to = "/blog"
 
