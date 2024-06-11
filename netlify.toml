@@ -24,4 +24,5 @@ command = ". ./build.sh"
 [[redirects]]
   from = "/tutorials"
   to = "/tutorial/"
+  status = 302!
 
