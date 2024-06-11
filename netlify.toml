@@ -29,7 +29,7 @@ command = ". ./build.sh"
 
 
 [[redirects]]
-  from = "/sdk/flutter/"
-  to = "/sdk/cpp/"
+  from = "/sdk/flutter/*"
+  to = "/sdk/cpp/:splat"
   status = 302
   force = true
