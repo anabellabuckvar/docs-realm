@@ -22,7 +22,8 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 [[redirects]]
-  from = "https://master--fork2-docs-realm.netlify.app/sdk/flutter/*"
+  from = "https://master--fork2-docs-realm.netlify.app/sdk/:product/*"
   to = "https://master--fork2-docs-realm.netlify.app/sdk/cpp/:splat"
   status = 302
   force = true
+  condition = {Product = = ["flutter"]}
