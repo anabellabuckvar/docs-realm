@@ -26,4 +26,4 @@ command = ". ./build.sh"
   to = "https://master--fork2-docs-realm.netlify.app/introduction"
   status = 302
   force = true
-  condition = {Product = ["flutter"]}
+  condition = {product = ["flutter"]}
