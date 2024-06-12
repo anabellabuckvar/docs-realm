@@ -22,7 +22,7 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 [[redirects]]
-  from = "https://master--fork2-docs-realm.netlify.app/sdk/:product/*"
+  from = "/sdk/:product/*"
   to = "https://master--fork2-docs-realm.netlify.app/introduction"
   status = 302
   force = true
