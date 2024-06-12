@@ -23,7 +23,7 @@ command = ". ./build.sh"
 
 [[redirects]]
   from = "https://master--fork2-docs-realm.netlify.app/sdk/:product/*"
-  to = "https://master--fork2-docs-realm.netlify.app/introduction
+  to = "https://master--fork2-docs-realm.netlify.app/introduction"
   status = 302
   force = true
   condition = {Product = ["flutter"]}
