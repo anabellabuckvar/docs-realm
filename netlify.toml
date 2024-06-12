@@ -24,6 +24,14 @@ command = ". ./build.sh"
 [[redirects]]
   from = "/sdk/:product/*"
   to = "/introduction"
-  status = 302
   force = true
   condition = {product = ["flutter"]}
+
+
+[[redirects]]
+  from = "/intro/"
+  to = "/introduction"
+  force = true
+
+
+  
