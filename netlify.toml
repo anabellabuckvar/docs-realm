@@ -27,6 +27,17 @@ command = ". ./build.sh"
   status = 301
   force = true
 
+   
+[[redirects]]
+  from = "/sdk/cpp/"
+  to = "/introduction"
+  status = 301
+  force = true
 
+
+
+
+
+  
 
   
