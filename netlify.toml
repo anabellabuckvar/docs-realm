@@ -24,6 +24,7 @@ command = ". ./build.sh"
 [[redirects]]
   from = "/sdk/flutter/"
   to = "/introduction"
+  status = 301
   force = true
 
 
