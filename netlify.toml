@@ -22,11 +22,9 @@ publish = "snooty/public"
 command = ". ./build.sh"
 
 [[redirects]]
-  from = "/sdk/:product/*"
+  from = "/sdk/flutter/"
   to = "/introduction"
   force = true
-  condition = {product = ["flutter"]}
-
 
 
 
