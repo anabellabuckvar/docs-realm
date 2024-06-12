@@ -28,10 +28,6 @@ command = ". ./build.sh"
   condition = {product = ["flutter"]}
 
 
-[[redirects]]
-  from = "/intro/"
-  to = "/introduction"
-  force = true
 
 
   
