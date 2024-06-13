@@ -34,7 +34,12 @@ command = ". ./build.sh"
   status = 301
   force = true
 
-[[redirects]]
-  from = "/sdk/hello/"
+  [[redirects]]
+  from = "/bye/"
   to = "/introduction"
+  status = 301
+
+[[redirects]]
+  from = "/hello/"
+  to = "/bye"
   status = 301
